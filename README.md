@@ -30,4 +30,3 @@ there's any difference.
     - k-Nearest Neighbors with PCA preprocessing<br>
       ![k-Nearest Neighbors with PCA(train:test=8:2)](plots/pca_knn_(8_2).png)<br>
       ![k-Nearest Neighbors with PCA(train:test=7:3)](plots/pca_knn_(7_3).png)<br>
-    -
