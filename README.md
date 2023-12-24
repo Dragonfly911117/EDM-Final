@@ -13,8 +13,9 @@ Then we use [data_preprocess.py](models/data_preprocess.py) to handle non-numeri
 
 ## PCA(optional)
 
-We then follow [tutorial](https://leemeng.tw/essence-of-principal-component-analysis.html) here to do PCA and see if
-there's any difference.
+We then follow [tutorial](https://leemeng.tw/essence-of-principal-component-analysis.html) to lower the dimension of data to 5.
+
+PCA variance ratio =  [0.52424711 0.07050346 0.06545911 0.05062572 0.03483436]
 
 ## Results:
 
