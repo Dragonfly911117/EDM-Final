@@ -63,12 +63,24 @@ PCA variance ratio =  [0.52424711 0.07050346 0.06545911 0.05062572 0.03483436]
 1. Logistic Regression:<br>
     - Logistic Regression<br>
       ![Logistic Regression](plots/lr.png)<br>
+      CPU times: user 13 s, sys: 17.3 s, total: 30.3 s
+      Wall time: 2.84 s
     - Logistic Regression with PCA preprocessing<br>
       ![Logistic Regression with PCA](plots/pca_lr.png)<br>
+      CPU times: user 839 ms, sys: 5.89 ms, total: 845 ms
+      Wall time: 845 ms
 2. k-Nearest Neighbors:<br>
     - k-Nearest Neighbors<br>
       ![k-Nearest Neighbors(train:test=8:2)](plots/knn_(8_2).png)<br>
+      CPU times: user 1.86 s, sys: 124 ms, total: 1.98 s
+      Wall time: 758 ms
       ![k-Nearest Neighbors(train:test=7:3)](plots/knn_(7_3).png)<br>
+      CPU times: user 2.53 s, sys: 152 ms, total: 2.68 s
+      Wall time: 1.47 s
     - k-Nearest Neighbors with PCA preprocessing<br>
       ![k-Nearest Neighbors with PCA(train:test=8:2)](plots/pca_knn_(8_2).png)<br>
+      CPU times: user 865 ms, sys: 200 ms, total: 1.07 s
+      Wall time: 726 ms
       ![k-Nearest Neighbors with PCA(train:test=7:3)](plots/pca_knn_(7_3).png)<br>
+      CPU times: user 910 ms, sys: 72.5 ms, total: 982 ms
+      Wall time: 878 ms
